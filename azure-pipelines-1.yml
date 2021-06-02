@@ -8,7 +8,8 @@ trigger:
 
 pool:
   name: Default
-  demands: -agent.name -equals DESKTOP-1LRH8EH
+  demands: 
+   - agent.name -equals DESKTOP-1LRH8EH
   
   
 
